@@ -1,0 +1,292 @@
+fileFormatVersion: 2
+guid: e7ad1531cad6dab478df1196ac0078d9
+timeCreated: 1513510841
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: 0 hits
+    21300002: left
+    21300004: right
+    21300006: Bricks_3
+    21300008: Bricks_0
+    21300010: Bricks_1
+    21300012: Bricks_2
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 128
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bricks_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 125
+        width: 128
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 20.5}
+        - {x: -64, y: -20.5}
+        - {x: 64, y: -20.5}
+        - {x: 64, y: 20.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Bricks_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 83
+        width: 63
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 20.5}
+        - {x: -31.5, y: -20.5}
+        - {x: 31.5, y: -20.5}
+        - {x: 31.5, y: 20.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Bricks_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 83
+        width: 63
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 20.5}
+        - {x: -31.5, y: -20.5}
+        - {x: 31.5, y: -20.5}
+        - {x: 31.5, y: 20.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Bricks_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 41}
+        - {x: -64, y: -2}
+        - {x: -54, y: -4}
+        - {x: -53, y: -4}
+        - {x: -51, y: -2}
+        - {x: -38, y: -2}
+        - {x: -27, y: -4}
+        - {x: -17, y: -4}
+        - {x: -28, y: -4}
+        - {x: -34, y: -5}
+        - {x: -38, y: -2}
+        - {x: -44, y: -2}
+        - {x: -48, y: -4}
+        - {x: -57, y: -4}
+        - {x: -64, y: -6}
+        - {x: -64, y: -41}
+        - {x: 64, y: -41}
+        - {x: 64, y: 41}
+      - - {x: -20, y: -35}
+        - {x: -23, y: -32}
+        - {x: -24, y: -32}
+        - {x: -27, y: -35}
+        - {x: -26, y: -34}
+        - {x: -28, y: -32}
+        - {x: -25, y: -29}
+        - {x: -25, y: -28}
+        - {x: -28, y: -25}
+        - {x: -29, y: -25}
+        - {x: -31, y: -27}
+        - {x: -40, y: -27}
+        - {x: -44, y: -29}
+        - {x: -38, y: -28}
+        - {x: -35, y: -24}
+        - {x: -35, y: -23}
+        - {x: -38, y: -20}
+        - {x: -39, y: -20}
+        - {x: -36, y: -23}
+        - {x: -28, y: -23}
+        - {x: -26, y: -25}
+        - {x: -21, y: -32}
+        - {x: -22, y: -34}
+        - {x: -19, y: -37}
+        - {x: -17, y: -36}
+        - {x: -20, y: -35}
+        - {x: -21, y: -36}
+        - {x: -20, y: -36}
+      - - {x: 44, y: -35}
+        - {x: 46, y: -34}
+        - {x: 49, y: -37}
+        - {x: 50, y: -36}
+        - {x: 31, y: -36}
+        - {x: 32, y: -37}
+      - - {x: 44, y: -14}
+        - {x: 44, y: -13}
+        - {x: 41, y: -10}
+        - {x: 39, y: -10}
+        - {x: 38, y: -11}
+        - {x: 33, y: -11}
+        - {x: 32, y: -13}
+        - {x: 33, y: -12}
+        - {x: 30, y: -9}
+        - {x: 29, y: -9}
+        - {x: 26, y: -12}
+        - {x: 26, y: -13}
+        - {x: 23, y: -16}
+        - {x: 29, y: -11}
+        - {x: 29, y: -10}
+        - {x: 26, y: -7}
+        - {x: 28, y: -5}
+        - {x: 39, y: -5}
+        - {x: 41, y: -3}
+        - {x: 37, y: -7}
+        - {x: 37, y: -9}
+        - {x: 40, y: -12}
+        - {x: 42, y: -12}
+        - {x: 43, y: -11}
+        - {x: 45, y: -11}
+        - {x: 48, y: -9}
+        - {x: 47, y: -9}
+        - {x: 48, y: -11}
+        - {x: 46, y: -11}
+        - {x: 43, y: -13}
+        - {x: 39, y: -15}
+        - {x: 36, y: -19}
+        - {x: 37, y: -22}
+        - {x: 38, y: -21}
+      - - {x: -54, y: -21}
+        - {x: -53, y: -20}
+        - {x: -51, y: -20}
+        - {x: -50, y: -18}
+        - {x: -52, y: -19}
+        - {x: -59, y: -21}
+        - {x: -58, y: -22}
+      - - {x: 9, y: -14}
+        - {x: 12, y: -17}
+        - {x: 13, y: -16}
+        - {x: 2, y: -15}
+      - - {x: -11, y: 12}
+        - {x: -14, y: 10}
+        - {x: -15, y: 6}
+        - {x: -14, y: 6}
+      - - {x: -60, y: 14}
+        - {x: -47, y: 15}
+        - {x: -47, y: 16}
+        - {x: -52, y: 15}
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
