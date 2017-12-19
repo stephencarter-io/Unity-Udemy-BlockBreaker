@@ -23,8 +23,8 @@ GameObject:
   - component: {fileID: 61959490421238022}
   - component: {fileID: 114167280117552692}
   m_Layer: 0
-  m_Name: 2 Hit
-  m_TagString: Untagged
+  m_Name: Aqua
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78,7 +78,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ae27478f036346dfaa8ecdf815ed563, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHits: 2
   hitSprites:
   - {fileID: 21300006, guid: e7ad1531cad6dab478df1196ac0078d9, type: 3}
 --- !u!212 &212535844230566110
