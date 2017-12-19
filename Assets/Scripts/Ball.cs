@@ -16,15 +16,21 @@ public class Ball : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
 		if (!hasStarted) {
 			this.transform.position = paddle.transform.position + paddleToBallVector;
-		
 			if (Input.GetMouseButtonDown (0)) {
 				print ("Mouse Button Clicked");
 				hasStarted = true;
 				this.GetComponent<Rigidbody2D>().velocity = new Vector2 (2f, 10f);
 			}
 		}
+	}
+
+	void OnCollisionEnter2D(Collision2D other) {
+		if (hasStarted)
+		{
+			GetComponent<AudioSource>().Play();
+		}
+		
 	}
 }
