@@ -5,6 +5,7 @@ using UnityEngine;
 public class Paddle : MonoBehaviour {
 	
 	public bool autoPlay = false;
+	public float minX, maxX;
 	private Ball ball;
 	private float paddleWidth;
 
@@ -26,14 +27,14 @@ public class Paddle : MonoBehaviour {
 	void MoveWithMouse () {
 		Vector3 paddlePos = new Vector3 (0.5f, this.transform.position.y, 0);
 		float mousePosInBlocks = Input.mousePosition.x / Screen.width * 16;
-		paddlePos.x = Mathf.Clamp(mousePosInBlocks, 0.0f, 15.0f);
+		paddlePos.x = Mathf.Clamp(mousePosInBlocks, minX, maxX);
 		this.transform.position = paddlePos;
 	}
 
 	void AutoPlay() {
 		Vector3 paddlePos = new Vector3 (0.5f, this.transform.position.y, 0);
 		Vector3 ballPos = ball.transform.position;
-		paddlePos.x = Mathf.Clamp(ballPos.x - (paddleWidth / 2), 0.0f, 15.0f);
+		paddlePos.x = Mathf.Clamp(ballPos.x - (paddleWidth / 2), minX, maxX);
 		this.transform.position = paddlePos;
 	}
 }
