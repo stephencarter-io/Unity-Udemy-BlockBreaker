@@ -11,7 +11,7 @@ public class Paddle : MonoBehaviour {
 
 	void Start() {
 		ball = GameObject.FindObjectOfType<Ball>();
-		paddleWidth = this.GetComponent<BoxCollider2D>().size.x;
+		paddleWidth = this.GetComponent<PolygonCollider2D>().bounds.size.x;
 		print (paddleWidth);
 	}
 
